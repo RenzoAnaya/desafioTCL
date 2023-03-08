@@ -334,7 +334,7 @@ insert into usuario (nombre, apellido, telefono, mail, direccion) values
 savepoint userLot08;
 
 
-rollback to userLot04;
+release userLot04;
 
 commit;
 
